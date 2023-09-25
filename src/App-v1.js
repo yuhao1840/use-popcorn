@@ -400,6 +400,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
             <p><em>{plot}</em></p>
             <p>Starring {actors}</p>
             <p>Directed by {director}</p>
+            {error && <span>{error}</span>}
           </section>
         </>
       }
