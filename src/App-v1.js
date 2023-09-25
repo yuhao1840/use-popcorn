@@ -347,7 +347,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
         setMovie(data);
       }
       catch (err) {
-        //console.error(err.message);
+        console.error(err.message);
         setError(err.message);
       }
       finally {
